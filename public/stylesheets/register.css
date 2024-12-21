@@ -1,0 +1,48 @@
+* {
+  --color-1: rgb(58, 166, 185);
+  --color-2: rgb(255, 208, 208);
+  --color-3: rgb(255, 158, 170);
+  --color-4: rgb(249, 249, 224);
+  font-family: "Mulish", sans-serif;
+}
+
+section {
+  background-color: var(--color-4);
+  color: var(--color-1);
+
+  form {
+    border: 2px solid var(--color-1);
+    border-radius: 10px;
+    box-shadow: 0 0 6px 2px var(--color-2);
+    background-color: var(--color-2);
+    padding-block: 1.5rem;
+    padding-inline: 3rem;
+
+    h2 {
+      color: var(--color-1);
+      text-shadow: 1px 1px 1px var(--color-3);
+    }
+
+    span {
+      color: red;
+    }
+
+    button {
+      background-color: var(--color-1);
+      color: var(--color-4);
+      border-radius: 5px;
+      border: 1px solid var(--color-1);
+
+      &:hover {
+        background-color: transparent;
+        color: var(--color-1);
+      }
+    }
+    p {
+      color: gray;
+    }
+    a {
+      color: var(--color-1);
+    }
+  }
+}

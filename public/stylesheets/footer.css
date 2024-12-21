@@ -1,0 +1,31 @@
+footer {
+  --color-1: rgb(58, 166, 185);
+  --color-2: rgb(255, 208, 208);
+
+  background-color: var(--color-1);
+
+  .logo {
+    svg {
+      width: 20px;
+      color: var(--color-2);
+    }
+  }
+
+  .circulo {
+    background-color: var(--color-2);
+    border-radius: 50%;
+    img {
+      width: 70px;
+    }
+  }
+
+  .separator {
+    width: 80px;
+    background-color: var(--color-2);
+    padding: 2px;
+  }
+
+  p {
+    color: rgb(249, 249, 224);
+  }
+}

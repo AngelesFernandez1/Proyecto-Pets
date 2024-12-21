@@ -1,0 +1,43 @@
+* {
+  --color-1: rgb(58, 166, 185);
+  --color-2: rgb(255, 208, 208);
+  --color-3: rgb(255, 158, 170);
+  --color-4: rgb(249, 249, 224);
+
+  font-family: "Mulish", sans-serif;
+}
+
+.welcome {
+  background-color: var(--color-1);
+  color: var(--color-4);
+
+  h2 {
+    text-shadow: 2px 2px 2px var(--color-3);
+  }
+
+  span {
+    color: var(--color-2);
+  }
+
+  img {
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid var(--color-2);
+  }
+}
+
+.pets {
+  background-color: var(--color-3);
+
+  .pet {
+    img {
+      width: 100%;
+      border: 2px solid var(--color-2);
+      border-radius: 10px;
+
+      &:hover {
+        width: 101%;
+      }
+    }
+  }
+}

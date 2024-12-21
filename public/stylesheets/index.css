@@ -1,0 +1,80 @@
+*{
+  --color-1: rgb(58, 166, 185); 
+  --color-2: rgb(255, 208, 208);
+  --color-3: rgb(255, 158, 170);
+  --color-4: rgb(249, 249, 224);
+  font-family: "Mulish", sans-serif;
+}
+
+.welcome{
+  background-color: var(--color-1);
+  color: var(--color-4);
+
+  h1{
+    text-shadow: 3px 3px 4px var(--color-3);
+    font-size: 3.3rem;
+  }
+
+  img{
+    width: clamp(400px,50vw,500px);
+  }
+}
+
+.users{
+  background-color: var(--color-4);
+
+  h2{
+    color: var(--color-1);
+    background-color: var(--color-2);
+    text-shadow: 1px 1px 2px var(--color-3);
+  }
+
+  .user{
+    background-color: transparent;
+    border: 2px solid var(--color-3);
+    border-radius: 20px;
+
+    img{
+      width: 100%;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+
+    }
+
+    &:hover{
+      width: 103%;
+    }
+  
+  }
+  h3{
+    color: var(--color-4);
+    background-color: var(--color-3);
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    border-top: 2px solid var(--color-4);
+    text-shadow: 2px 2px 2px var(--color-1);
+  }
+}
+
+.gallery{
+  background-color: var(--color-2);
+
+  h2{
+    background-color: var(--color-3);
+    color: var(--color-4);
+  }
+
+  img{
+    width: 400px;
+  }
+
+  p{
+    color: var(--color-1);
+  }
+
+  a{
+    color: rgb(133, 29, 83);
+  }
+
+}
+

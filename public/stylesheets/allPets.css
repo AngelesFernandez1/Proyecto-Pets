@@ -1,0 +1,36 @@
+* {
+  --color-1: rgb(58, 166, 185);
+  --color-2: rgb(255, 208, 208);
+  --color-3: rgb(255, 158, 170);
+  --color-4: rgb(249, 249, 224);
+  font-family: "Mulish", sans-serif;
+}
+
+.welcome {
+  background-color: var(--color-1);
+  color: var(--color-4);
+
+  h2 {
+    text-shadow: 2px 2px 3px var(--color-3);
+    font-size: 3.3rem;
+  }
+}
+
+.pets {
+  background-color: var(--color-2);
+
+  img {
+    width: 280px;
+    border-radius: 50%;
+    border: 2px solid var(--color-3);
+
+    &:hover {
+      width: 100%;
+    }
+  }
+
+  h3 {
+    color: var(--color-1);
+    text-shadow: 1px 1px 1px var(--color-4);
+  }
+}
